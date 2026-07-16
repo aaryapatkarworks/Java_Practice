@@ -1,7 +1,7 @@
 import java.util.Date;      // Import Date class
 //import java.awt.*;        // Import AWT classes (currently not used)
 
-public class Variables_Datatypes_Strings_02 {
+public class _02_Variables_Datatypes_Strings {
 
     public static void main(String[] args){
 
