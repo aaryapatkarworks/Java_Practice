@@ -1,6 +1,6 @@
 # Java Practice
 
-This repository contains my Java learning journey during my internship at VishwaGuru Infotech Pvt. Ltd.
+This repository contains my Java learning journey.
 
 ## Objectives
 
