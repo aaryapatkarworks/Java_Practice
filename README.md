@@ -1,4 +1,4 @@
-# ☕ Java Practice
+# Java Practice
 
 A structured repository documenting my Java learning journey through hands-on coding, practice programs, and mini-projects.
 
@@ -6,7 +6,7 @@ The primary goal of this repository is to strengthen Core Java fundamentals, Obj
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Learn Core Java concepts through practical implementation
 - Build a strong understanding of Object-Oriented Programming
@@ -16,7 +16,7 @@ The primary goal of this repository is to strengthen Core Java fundamentals, Obj
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 Java_Practice/
@@ -34,7 +34,7 @@ Java_Practice/
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 - Java 21
 - IntelliJ IDEA
@@ -43,7 +43,7 @@ Java_Practice/
 
 ---
 
-## 📖 Learning Approach
+## Learning Approach
 
 Each topic in this repository is explored through:
 
@@ -55,7 +55,7 @@ Each topic in this repository is explored through:
 
 ---
 
-## 🚀 Repository Highlights
+## Repository Highlights
 
 - Well-structured weekly organization
 - Consistent coding practice
@@ -65,5 +65,5 @@ Each topic in this repository is explored through:
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Aarya Patkar**
