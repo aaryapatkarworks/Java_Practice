@@ -18,12 +18,29 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    // Deposit Method
+    // deposit method
     void deposit(double amount) {
         balance = balance + amount;
         System.out.println("₹" + amount + " deposited successfully.");
     }
 
+    // withdraw method
+    void withdraw(double amount) {
+
+        if (amount <= balance) {
+
+            balance = balance - amount;
+            System.out.println( amount + " withdrawn successfully.");
+
+        }
+
+        else {
+
+            System.out.println("Insufficient Balance.");
+
+        }
+
+    }
     //getters
     String getAccountHolder() {
         return accountHolder;
@@ -61,6 +78,10 @@ public class BankAccount {
         account2.displayAccount();
 
         account2.deposit(5000);
+
+        account2.displayAccount();
+
+        account2.withdraw(10000);
 
         account2.displayAccount();
 
