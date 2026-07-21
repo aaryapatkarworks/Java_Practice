@@ -7,21 +7,44 @@ public class SavingsAccount extends BankAccount{
                    double balance,
                    double interestRate) {
 
-        super(accountHolder,
-                accountNumber,
-                balance);
+        super(accountHolder, accountNumber, balance);
 
         this.interestRate = interestRate;
     }
 
-    void displaySavingsAccount(){
-        System.out.println("Account Holder : " + getAccountHolder());
-        System.out.println("Account Number : " + getAccountNumber());
-        System.out.println("Balance        : ₹" + getBalance());
-        System.out.println("Interest Rate  : " + interestRate + "%");
-        System.out.println();
+    @Override
+    void withdraw(double amount) {
+
+        if (amount > 25000) {
+
+            System.out.println("Withdrawal Limit Exceeded!");
+
+        }
+
+        else {
+
+            super.withdraw(amount);
+
+        }
+
     }
 
+    void calculateInterest() {
+
+        double interest = getBalance() * interestRate / 100;
+
+        System.out.println("Interest Earned : ₹" + interest);
+
+    }
+
+    void displaySavingsAccount() {
+
+        displayAccount();
+
+        System.out.println("Interest Rate : " + interestRate + "%");
+        System.out.println();
+
+    }
     public static void main(String[] args) {
 
         SavingsAccount account1 =
@@ -41,12 +64,20 @@ public class SavingsAccount extends BankAccount{
                 );
 
         account1.deposit(10000);
+        account1.withdraw(15000);
+        account1.calculateInterest();
+
+        System.out.println();
 
         account2.withdraw(15000);
+        account2.calculateInterest();
+
+        System.out.println();
 
         account1.displaySavingsAccount();
-
         account2.displaySavingsAccount();
 
+        account1.withdraw(30000);
+        account1.displaySavingsAccount();
     }
 }
