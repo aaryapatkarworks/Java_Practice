@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week_02_OOP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TradeFlow – Portfolio &amp; Trading Analytics Platform" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BankAccount" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_03_Exception_Handling" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
