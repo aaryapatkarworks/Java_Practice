@@ -6,31 +6,49 @@ public class BankAccount {
 
     // Default Constructor
     BankAccount() {
+
         accountHolder = "Unknown";
         accountNumber = 0;
         balance = 1000;
+
     }
 
     // Parameterized Constructor
-    BankAccount(String accountHolder, long accountNumber, double balance) {
+    BankAccount(String accountHolder,
+                long accountNumber,
+                double balance) {
+
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
         this.balance = balance;
+
     }
 
-    // deposit method
+    // Deposit Method
     void deposit(double amount) {
-        balance = balance + amount;
-        System.out.println("₹" + amount + " deposited successfully.");
+
+        if (amount > 0) {
+
+            balance = balance + amount;
+            System.out.println("₹" + amount + " deposited successfully.");
+
+        }
+
+        else {
+
+            System.out.println("Invalid Deposit Amount.");
+
+        }
+
     }
 
-    // withdraw method
+    // Withdraw Method
     void withdraw(double amount) {
 
         if (amount <= balance) {
 
             balance = balance - amount;
-            System.out.println( amount + " withdrawn successfully.");
+            System.out.println("₹" + amount + " withdrawn successfully.");
 
         }
 
@@ -41,29 +59,42 @@ public class BankAccount {
         }
 
     }
-    //getters
+
+    // Getters
     String getAccountHolder() {
+
         return accountHolder;
+
     }
 
     long getAccountNumber() {
+
         return accountNumber;
+
     }
 
     double getBalance() {
+
         return balance;
+
     }
 
-    //setters
+    // Setter
     void setAccountHolder(String accountHolder) {
+
         this.accountHolder = accountHolder;
+
     }
 
+    // Display Method
     void displayAccount() {
+
         System.out.println("Account Holder : " + getAccountHolder());
         System.out.println("Account Number : " + getAccountNumber());
         System.out.println("Balance        : ₹" + getBalance());
+
         System.out.println();
+
     }
 
     public static void main(String[] args) {
@@ -71,7 +102,11 @@ public class BankAccount {
         BankAccount account1 = new BankAccount();
 
         BankAccount account2 =
-                new BankAccount("Aarya Patkar", 123456789012L, 90000);
+                new BankAccount(
+                        "Aarya Patkar",
+                        123456789012L,
+                        90000
+                );
 
         account1.displayAccount();
 
@@ -79,13 +114,9 @@ public class BankAccount {
 
         account2.deposit(5000);
 
-        account2.displayAccount();
-
         account2.withdraw(10000);
 
         account2.displayAccount();
-
-        // Change Account Holder
 
         account2.setAccountHolder("Pahel Patkar");
 
@@ -93,4 +124,5 @@ public class BankAccount {
                 + account2.getAccountHolder());
 
     }
+
 }
