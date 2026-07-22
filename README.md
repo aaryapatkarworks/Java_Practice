@@ -1,8 +1,8 @@
 # Java Practice
 
-A structured repository documenting my Java learning journey through hands-on coding, practice programs, and mini-projects.
+A structured repository documenting my Java learning journey through hands-on coding, practice programs, and mini-projects. This repository serves as a personal knowledge base while I build a strong foundation in Core Java and Object-Oriented Programming.
 
-The primary goal of this repository is to strengthen Core Java fundamentals, Object-Oriented Programming concepts, and build a solid foundation for Java backend development.
+The primary goal of this repository is to strengthen my Core Java fundamentals, master Object-Oriented Programming, and build a solid foundation for Java backend development.
 
 ---
 
@@ -10,9 +10,9 @@ The primary goal of this repository is to strengthen Core Java fundamentals, Obj
 
 - Learn Core Java concepts through practical implementation
 - Build a strong understanding of Object-Oriented Programming
-- Improve problem-solving and coding skills
+- Improve logical thinking and problem-solving skills
 - Follow clean coding practices
-- Maintain a structured Git workflow with regular commits
+- Maintain a structured Git workflow with meaningful commits
 
 ---
 
@@ -36,7 +36,7 @@ Java_Practice/
 
 ## Technologies Used
 
-- Java 21
+- Java 21 (JDK 21)
 - IntelliJ IDEA
 - Git
 - GitHub
@@ -48,7 +48,7 @@ Java_Practice/
 Each topic in this repository is explored through:
 
 - Understanding the underlying concepts
-- Writing code from scratch
+- Implementing concepts through coding from scratch
 - Solving practice problems
 - Building small console-based applications
 - Maintaining a clean and organized project structure
@@ -59,11 +59,18 @@ Each topic in this repository is explored through:
 
 - Well-structured weekly organization
 - Consistent coding practice
-- Incremental Git commits
+- Meaningful Git commit history
 - Clean and readable code
 - Focus on learning through implementation
 
 ---
 
+## Notes
+
+This repository is continuously updated as I progress through my Java learning roadmap. New topics, practice programs, and mini-projects will be added regularly.
+
+---
+
 ## Author
+
 **Aarya Patkar**
