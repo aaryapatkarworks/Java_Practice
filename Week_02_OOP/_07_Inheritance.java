@@ -1,4 +1,4 @@
-class Employee {
+class Employee_example {
 
     void work() {
 
@@ -8,7 +8,7 @@ class Employee {
 
 }
 
-public class _07_Inheritance extends Employee {
+public class _07_Inheritance extends Employee_example {
 
     void conductMeeting() {
 
