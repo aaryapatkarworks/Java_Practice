@@ -24,9 +24,12 @@ Java_Practice/
 ├── Week_01_CoreJava/
 ├── Week_02_OOP/
 ├── Week_03_ExceptionHandling/
-├── Week_04_Collections/
-├── Week_05_FileHandling/
-├── Week_06_Multithreading/
+├── Week_04_Wrapper_Classes/
+├── Week_05_Collections_Framework/
+├── Week_06_File_Handling/
+├── Week_07_Java8_Features/
+├── Week_08_JDBC/
+├── Week_09_Maven/
 │
 ├── README.md
 └── .gitignore
