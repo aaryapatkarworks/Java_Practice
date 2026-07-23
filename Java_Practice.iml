@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BankAccount" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_03_Exception_Handling" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Employee_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_04_Wrapper_Classes" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
